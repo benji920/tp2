@@ -9,7 +9,7 @@ class Sommet
         ~Sommet();
     private:
         int m_num;
-        std::vector<Sommet>m_adjacent;
+        std::vector<Sommet*>m_adjacent;
 };
 
 #endif // SOMMET_H

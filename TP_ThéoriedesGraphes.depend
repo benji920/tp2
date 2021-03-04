@@ -8,19 +8,23 @@
 1614879001 c:\users\luu-anh vuong\desktop\info\exos\tp_théoriedesgraphes\sommet.h
 	<vector>
 
-1614879220 source:c:\users\leski\documents\github\tp2\graphe.cpp
+1614883461 source:c:\users\leski\documents\github\tp2\graphe.cpp
 	"Graphe.h"
 
-1614879306 c:\users\leski\documents\github\tp2\graphe.h
+1614882508 c:\users\leski\documents\github\tp2\graphe.h
 	<vector>
 	"Sommet.h"
 	<string>
+	<fstream>
+	<iostream>
 
-1614879002 c:\users\leski\documents\github\tp2\sommet.h
+1614883031 c:\users\leski\documents\github\tp2\sommet.h
 	<vector>
 
-1614878042 source:c:\users\leski\documents\github\tp2\main.cpp
+1614883307 source:c:\users\leski\documents\github\tp2\main.cpp
 	<iostream>
+	<Graphe.h>
+	<Sommet.h>
 
 1614878174 source:c:\users\leski\documents\github\tp2\sommet.cpp
 	"Sommet.h"

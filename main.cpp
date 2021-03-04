@@ -1,8 +1,10 @@
 #include <iostream>
-
+#include<Graphe.h>
+#include<Sommet.h>
 
 int main()
 {
-    std::cout << "Hello world!" << std::endl;
-    return 0;
+ Graphe G1("graphe.txt");
+//G1.Afficher();
+
 }
