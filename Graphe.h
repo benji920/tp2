@@ -3,6 +3,8 @@
 #include <vector>
 #include "Sommet.h"
 #include <string>
+#include <iostream>
+#include <queue>
 
 class Graphe
 {
@@ -11,12 +13,14 @@ class Graphe
         ~Graphe();
        Charger(std::string m_nomFichier);
        void Afficher() const;
+       BFS(int initial);
     private:
     int m_orient; // graphe oriente 1 ou non orienté 0
-    std::vector<Sommet*>m_sommets;
+
     int m_ordre; //nombre de sommets
     int m_taille; // nombre d'arêtes d'arcs
-
+  std::vector<Sommet*>m_sommets;
+  //std::map<Sommet,Sommet>m_adjacent
     };
 
 #endif // GRAPHE_H
