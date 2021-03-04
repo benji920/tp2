@@ -1,8 +1,9 @@
 #include <iostream>
-
+#include"Graphe.h"
+#include"Sommet.h"
 
 int main()
 {
-    std::cout << "Hello world!" << std::endl;
+    Graphe G;
     return 0;
 }
