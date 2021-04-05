@@ -11,7 +11,7 @@ class Graphe
     public:
         Graphe();
         ~Graphe();
-       Charger(std::string m_nomFichier);
+       Graphe(std::string m_nomFichier);
        void Afficher() const;
        BFS(int initial);
     private:
@@ -20,7 +20,6 @@ class Graphe
     int m_ordre; //nombre de sommets
     int m_taille; // nombre d'arêtes d'arcs
   std::vector<Sommet*>m_sommets;
-  //std::map<Sommet,Sommet>m_adjacent
     };
 
 #endif // GRAPHE_H

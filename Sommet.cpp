@@ -9,7 +9,6 @@ m_num=num;
 
 }
 
-
 Sommet::~Sommet()
 {
     //dtor
